@@ -1,0 +1,25 @@
+body {
+background-color: '#0000ff';
+font-family:'Lato', sans-serif;
+font-weight:400;
+font-size:16px;
+line-height: 1.6;
+}
+a {color:#357b70;
+}
+a:hover {
+/* No underlining when hovering over a link */
+text-decoration:none;
+}
+a:visited {
+/* visited link */
+color:#05676e;}
+a:active
+{
+/* selected link */
+color:#489c79;
+}
+a:hover, a:focus{
+/* No underlining when hovering over a link */
+text-decoration:none;
+}
