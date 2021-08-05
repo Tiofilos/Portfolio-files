@@ -1,58 +1,62 @@
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png"
-        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbds3bgHkpbqknB1UdiqNtjOi7yY4cjtfmQ&usqp=CAU">
-    <title>Theophilus Awoyele</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-
-<header>
-    <div>
-        <img src="http://via.placeholder.com/200x70" alt="logo"></img>
-        <nav>
-            <ul role="menubar">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem">Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" target="_blank" role="menuitem">Contact</a>
-                </li>
-                <a href="#">Default Link</a>
-                <button type="button">Default Button</button>
-            </ul>
-        </nav>
-    </div>
-</header>
-<main>
-    <div>
-        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE1pQDwbTfifQ/profile-displayphoto-shrink_200_200/0/1575614900436?e=1632960000&v=beta&t=_PoNAwExzTInrMxaMQbMaThHKOGzAqmt3GL4Z_bbzYQ"
-            alt="Theophilus Awoyele Portrait" h></img>
-        <h1>Hello World</h1>
-        <p> My name is Theophilus Awoyele.<br> I am a <span>web</span> developer from Nigeria.</p>
-        <a href="#">Check out some of my code</a>
-    </div>
-    <script src="js/tota11y.min.js"></script>
-</main>
-<footer>
-    <p>Find me on</p>
-    <img src="img/github_icon.svg" alt="Github" height="30" width="30"></img>
-    <img src="img/twitter_icon.svg" alt="Twitter" height="30" width="30"></img>
-    <a href="https://www.linkedin.com/in/theophilus-awoyele-60552597/"><img src="img/linkedin_icon.svg" alt="LinkedIn"
-            height="30" width="30"> </img></a>
-
-</footer>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png"
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbds3bgHkpbqknB1UdiqNtjOi7yY4cjtfmQ&usqp=CAU">
+        <title>Theophilus Awoyele</title>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header class="page-header">
+            <div>
+                <img src="http://via.placeholder.com/200x70" alt="logo" class="navigation__logo " >
+                <nav class="page-header__item">
+                    <ul role="menubar" class="navigation-list">
+                        <li role="presentation">
+                            <a href="index.html" role="menuitem"class="navigation-list__item">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="about.html" role="menuitem"class="navigation-list__item">About</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="work.html" role="menuitem"class="navigation-list__item">work</a>
+                        </li>
+                        <li role="presentation">   
+                            <a href="contact.html" target="_blank" role="menuitem" class="navigation-list__item">Contact</a>
+                        </li>
+            
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="profile">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE1pQDwbTfifQ/profile-displayphoto-shrink_200_200/0/1575614900436?e=1632960000&v=beta&t=_PoNAwExzTInrMxaMQbMaThHKOGzAqmt3GL4Z_bbzYQ"
+                    alt="Theophilus Awoyele Portrait" class="profile__portrait">
+                <h1>Hello</h1>
+                <p>My name is Theophilus Awoyele.<br> I am a <span>web</span> developer from Nigeria.</p> 
+                <a href="#">Check out some of my code</a>
+            </div>
+            <script src="js/tota11y.min.js"></script>
+        </main>
+        <footer class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <a href="https://github.com/Tiofilos"><img src="img/github_icon.svg" alt="Github" height="30"
+                        width="30"></a>
+                <a href="https://twitter.com/home"><img src="img/twitter_icon.svg" alt="Twitter" height="30"
+                        width="30"></a>
+                <a href="https://www.linkedin.com/in/theophilus-awoyele-60552597/"><img src="img/linkedin_icon.svg"
+                        alt="LinkedIn" height="30" width="30"></a>
+            </div>
+        </footer>
+    </body>    
 </html>
 <!-- <a href="#about" target="_blank/_Self">About</a> open pages in new tab/same tab.  
 <a href="files/cv.pdf" download>Download my CV</a> download files.
@@ -65,3 +69,7 @@ Creaating a form:
 <button type="submit">Register</button>
 </form>
 -->
+
+<!--<a href="#">Default Link</a>
+                    <button type="button">Default Button</button>
+                    <button class="button__secondary">Secondary Button</button>-->
